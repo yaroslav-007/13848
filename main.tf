@@ -6,5 +6,5 @@ resource "null_resource" "helloWorld" {
 
 
 provider "uptimerobot1" {
-  api_key = "dasdasdas"
+  "plugin_url" = "https://github.com/yaroslav-007/13848/blob/master/terraform-provider-uptimerobot
 }

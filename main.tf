@@ -5,6 +5,13 @@ resource "null_resource" "helloWorld" {
 }
 
 
-provider "uptimerobot" {
-  api_key = "dasdasdas"
+
+
+
+
+module "uptimerobot" {
+  source = "./plugins/"
+                                                                                                                       
 }
+
+

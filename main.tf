@@ -4,14 +4,7 @@ resource "null_resource" "helloWorld" {
   }
 }
 
-
-
-
-
-
 module "uptimerobot" {
   source = "./plugins/"
-                                                                                                                       
+                                                                                                                      
 }
-
-

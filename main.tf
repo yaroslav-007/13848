@@ -3,3 +3,8 @@ resource "null_resource" "helloWorld" {
     command = "echo hello world"
   }
 }
+
+
+provider "uptimerobot" {
+  api_key = "dasdasdas"
+}

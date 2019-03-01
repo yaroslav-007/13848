@@ -5,6 +5,6 @@ resource "null_resource" "helloWorld" {
 }
 
 
-provider "uptimerobot" {
+provider "uptimerobot1" {
   api_key = "dasdasdas"
 }
